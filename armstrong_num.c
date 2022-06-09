@@ -1,38 +1,38 @@
-#include <stdio.h>
-#include <math.h>
+// #include <stdio.h>
+// #include <math.h>
 
-int main()
-{
-    int n,r,count=0,sum=0,temp;
-    printf("Enter a num: ");
-    scanf("%d",&n);
-    temp=n;
-    while (n>0)
-    {
-        r=n%10;
-        count++;
-        n/=10;
-    }
-    n=temp;
-    // printf("%d ",count);
-    // printf("%d ",n);
-    while (temp>0)
-    {
-        r=temp%10;
-        sum = sum + pow(r,count);
-        temp/=10;
-    }
-    // printf("%d",sum);
-    if (sum==n)
-    {
-        printf("The number you have entered is a Armstrong Number");
-    }
-    else{
-        printf("The number you have entered is not a Armstrong Number");
-    }
+// int main()
+// {
+//     int n,r,count=0,sum=0,temp;
+//     printf("Enter a num: ");
+//     scanf("%d",&n);
+//     temp=n;
+//     while (n>0)
+//     {
+//         r=n%10;
+//         count++;
+//         n/=10;
+//     }
+//     n=temp;
+//     // printf("%d ",count);
+//     // printf("%d ",n);
+//     while (temp>0)
+//     {
+//         r=temp%10;
+//         sum = sum + pow(r,count);
+//         temp/=10;
+//     }
+//     // printf("%d",sum);
+//     if (sum==n)
+//     {
+//         printf("The number you have entered is a Armstrong Number");
+//     }
+//     else{
+//         printf("The number you have entered is not a Armstrong Number");
+//     }
     
-    return 0;
-}
+//     return 0;
+// }
 
 
 
@@ -104,41 +104,41 @@ int main()
 
 
 
-// #include <stdio.h>
-// #include <math.h>
+#include <stdio.h>
+#include <math.h>
 
-// int main()
-// {
-//     int n,r,count=0,sum=0,temp;
-//     printf("Enter a num: ");
-//     scanf("%d",&n);
-//     temp=n;
-//     while (n>0)
-//     {
-//         r=n%10;
-//         count++;
-//         n/=10;
-//     }
-//     n=temp;
-//     // printf("%d ",count);
-//     // printf("%d ",n);
-//     while (temp>0)
-//     {
-//         r=temp%10;
-//         sum = sum + pow(r,count);
-//         temp/=10;
-//     }
-//     // printf("%d",sum);
-//     if (sum==n)
-//     {
-//         printf("The number you have entered is a Armstrong Number");
-//     }
-//     else{
-//         printf("The number you have entered is not a Armstrong Number");
-//     }
+int main()
+{
+    int n,r,count=0,sum=0,temp;
+    printf("Enter a num: ");
+    scanf("%d",&n);
+    temp=n;
+    while (n>0)
+    {
+        r=n%10;
+        count++;
+        n/=10;
+    }
+    n=temp;
+    // printf("%d ",count);
+    // printf("%d ",n);
+    while (temp>0)
+    {
+        r=temp%10;
+        sum = sum + pow(r,count);
+        temp/=10;
+    }
+    // printf("%d",sum);
+    if (sum==n)
+    {
+        printf("The number you have entered is a Armstrong Number");
+    }
+    else{
+        printf("The number you have entered is not a Armstrong Number");
+    }
     
-//     return 0;
-// }
+    return 0;
+}
 
 
 

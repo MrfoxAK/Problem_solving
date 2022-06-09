@@ -79,7 +79,7 @@ int main()
             flag = 1;
             break;
         }
-    }
+
     // flag is 0 for prime numbers
     if (flag == 0)
     {
@@ -90,4 +90,5 @@ int main()
         printf("%d is not a Prime Number.", n);
     }
     return 0;
+}
 }
